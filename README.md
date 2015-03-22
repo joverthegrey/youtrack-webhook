@@ -7,6 +7,7 @@ sent by Stash using the Webhooks plugin.
 It creates a comment in each referenced issue mentioning the author, the commit
 message, and a link to the commit page in Stash.
 
+It is based on [Gitlab Hook for YouTrack](https://github.com/gini/youtrack-githook) by Gini GmbH
 
 Documentation
 -------------
@@ -25,7 +26,6 @@ The easiest way to start developing is using virtualenv:
     virtualenv -p python2 VENV
     . VENV/bin/activate
     pip install -r requirements.txt
-
 
 Support
 -------
