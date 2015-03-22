@@ -1,17 +1,17 @@
-GitLab Hook for YouTrack
+Stash Hook for YouTrack
 ========================
 
 This project provides a small HTTP endpoint to process the payload of a webhook
-sent by GitLab.
+sent by Stash using the Webhooks plugin.
 
 It creates a comment in each referenced issue mentioning the author, the commit
-message, and a link to the commit page in GitLab.
+message, and a link to the commit page in Stash.
 
 
 Documentation
 -------------
 
-See the [project's wiki](https://github.com/gini/youtrack-githook/wiki).
+See the [project's wiki](https://github.com/gini/youtrack-githook/wiki). //todo
 
 
 Development Environment
@@ -30,7 +30,7 @@ The easiest way to start developing is using virtualenv:
 Support
 -------
 
-Please log tickets and issues at our [project site](https://github.com/gini/youtrack-githook/issues).
+Please log tickets and issues at our [project site](https://github.com/gini/youtrack-githook/issues). //todo
 
 
 License
@@ -38,6 +38,7 @@ License
 
 Copyright (c) 2013 smarchive GmbH, Gini GmbH
 Copyright (c) 2014 Gini GmbH
+Copyright (c) 2015 joverthegrey
 
 This script is licensed under the Apache License, Version 2.0.
 

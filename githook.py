@@ -11,6 +11,7 @@ YOUTRACK_PASSWORD = ''
 YOUTRACK_APIKEY = ''
 REGEX = '([A-Z]+-\d+)'
 DEFAULT_USER = ''
+STASH_BASEURL = ''
 
 app = Flask(__name__)
 app.config.from_object(__name__)
